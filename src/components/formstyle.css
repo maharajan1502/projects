@@ -1,0 +1,104 @@
+.ma{
+    margin-top: 0px;;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,81,1) 1%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+}
+
+.contain{
+   margin: 100px; 
+    display: flex;
+    align-items: center;
+    margin: 0 30%;
+    
+}.form{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+    height:400px;
+    background-color: white;
+   background: rgb(238,174,202);
+    background: radial-gradient(linear, rgba(2,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 40px;
+} 
+.head{
+    margin-top: 30px;
+    color:rgb(48, 19, 238);
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.User{
+    height:40px;
+    width:200px;
+    text-align: center;
+    border:none ;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    align-items: center;
+    font-style: bold;
+    font-size:medium;
+}
+.User1{
+    background-color:white;
+    color: black;
+    border: 2px black solid;
+   
+    width: 250px;
+    border-radius: 30px;
+}
+.login{
+    background-color: blue;
+    height:30px;
+    width: 80px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px;
+    font-size: px;
+}
+.login:hover{
+    background-color: tomato;
+    cursor: pointer;
+    box-shadow: 4px grey;
+}
+.NUser{
+    display: flex;
+    gap: 10px;
+     font-size: small;
+}
+.NUser span{
+    color: blue;
+   
+}
+.but{
+    display: flex;
+    gap:30px;
+
+}
+.gray{
+    background-color: white;
+    color: grey;
+}
+@media  (max-width:660px){
+    .User1{
+        width: 200px;
+    }   
+}
+@media  (max-width:660px){
+    .User1{
+        width: 150px;
+        text-align: left;
+    }
+}
